@@ -6,4 +6,4 @@ Entrega realitzada per l'alumne Josep Consuegra Navarrina per l'assignatura Tipo
 El contingut de l'entrega inclou:
  - El conjunt de respostes a les preguntes en format pdf, sota el nom de jconsuegran-PAC1-TipologiaICicleDeVidaDeLesDades.pdf
  - El codi per a l'extracció de dades mitjançant web scraping, sota el nom de TipoiCicledeVidadelesDades-PEC1.py
- - 
+ - Un fitxer d'exemple del contingut que s'obté en executar el codi python.
