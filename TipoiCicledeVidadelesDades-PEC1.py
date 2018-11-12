@@ -62,4 +62,5 @@ for collection in soupwoman.body.find_all('div',attrs={'class':'single-collectio
             df=df.append(pd.Series([date,'Pompeii','Dona',shoe.string,color.string,model.string,model.next_sibling.next_sibling.string,''],index=df.columns), ignore_index=True)
 
 #Escriu el fitxer a C:/Users/<Usuari actual>
-df.to_csv('shoe-catalog.csv',',', index = False)
+date2=str(now.year)+'_'+str(now.month)+'_'+str(now.day)
+df.to_csv('shoe-catalog-'+date2+'.csv',',', index = False)
